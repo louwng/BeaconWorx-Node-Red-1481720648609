@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BeaconWorx-Node-Red
+  host: BeaconWorx-NodeRed
+  disk_quota: 1024M
+  services:
+  - BeaconWorx-Node-Red-cloudantNoSQLDB
+  - BeaconWorx-Node-Red-iotf-service
